@@ -68,4 +68,6 @@ The various colors of MegaPi represents specialized functions:
 5. Green Interface: Power output/Motor output.
 
 # Supports multiple programming languages
-Block-based programming software enable you to program the Ultimate 2.0 by dragging and dropping function blocks. It also supports Arduino IDE and Python with Raspberry Pi. 
+Block-based programming software enable you to program the Ultimate 2.0 by dragging and dropping function blocks. It also supports Arduino IDE and Python with Raspberry Pi.
+
+**NOTE**: [MakeBlock MegaPi library](https://github.com/Makeblock-official/Makeblock-Librarie)

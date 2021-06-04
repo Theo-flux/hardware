@@ -71,3 +71,6 @@ The various colors of MegaPi represents specialized functions:
 Block-based programming software enable you to program the Ultimate 2.0 by dragging and dropping function blocks. It also supports Arduino IDE and Python with Raspberry Pi.
 
 Note: I have attached a zip file for the assemble of the uultimate2.0
+
+# Coding The MegaPi Board using Arduino
+The MegaPi board can actually programmed with the Arduino IDE because it is designed based on the popular Arduino AT Mega 2560. To actually  implement it, it is suggested you install Makeblock program library using the Arduino IDE. An alternative to this is to download the zip file [here](https://github.com/Makeblock-official/Makeblock-Libraries/archive/master.zip). Decompress the makeblock folder in the zip to the Arduino default library.You might need to restart to actually see changes.

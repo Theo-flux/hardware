@@ -97,3 +97,96 @@ The table above indicates what each color represents. Notice that the multiplier
 -  Short circuit also refers closed circuit. The terminals are forced to have zero voltage potential.
  
 # SERIES AND PARALLEL CIRCUITS
+Components in a circuit can be wired in one of two ways, series or parallel.
+- In a series circuit, the components are wired one after the other, forming a single path for current to flow through.
+- In a parallel circuit, components are wired in such a way that there are multiple paths for electricity to flow through.
+
+You can check the image library to see how a seris and parallel circuit look like.
+
+# TRAFFIC LIGHT CIRCUIT
+In this lesson, you’ll write programs to control the LEDs in the circuit, including a program for a traffic light. With the traffic light program complete and running, you’ll use a multimeter to take electrical measurements of the circuit.
+
+### BUILDING THE CIRCUIT
+Circuit diagram and sketch file can be found in the traffic light folder.
+
+#### COMPONENT LIST
+- Arduino Uno Board
+- Breadboard
+- LEDs (Red,Yellow & Green)
+- Jumper Wires
+- 3x 220ohms Resistor
+- USB Cable
+
+The sketch can be found in same folder.
+
+# TRAFFIC LIGHT WITH PEDESTRIAN BUTTON
+At many busy intersections, traffic lights have pedestrian buttons that people walking on the sidewalk can press. This lets the traffic light know that people, not just cars, need to cross the street. In this activity, you’ll add a pedestrian button to your circuit. You’ll then program the traffic light to function differently when the button is pressed.
+
+### BUILDING THE CIRCUIT
+Circuit diagram and sketch file can be found in the traffic light with pedestrian folder.
+#### COMPONENT LIST
+- Arduino Uno Board
+- Breadboard
+- LEDs (Red,Yellow & Green)
+- Jumper Wires
+- 3x 220 ohms Resistor
+- 1x 10k ohms Resistor
+- Push Button
+- USB Cable
+
+# DIMMER SWITCH
+In many homes and office buildings, the lights are controlled by a dimmer knob that enables you to dim the lights to a setting that is comfortable for the environment. In this lesson, you’ll investigate analog signals and how they can be used to control a circuit. You’ll create an LED circuit that dims the LEDs when you turn a device called a potentiometer.
+
+### POTENTIOMETER
+A potentiometer is a type of variable resistor. In other words, it can be changed to have no resistance or to have a great deal of resistance. The potentiometer we will using has a range of 0 to 10,000 ohms.
+
+Inside a potentiometer is a resistive material and wiper that slides along this material. Each end of the resistive material is connected to a pin or terminal. These would be Pins A and B. The resistance between Pins A and B is fixed and is the maximum amount of resistance a potentiometer can add to the circuit. The potentiometer used here has maximum resistance of 10 kilohms.
+
+A third pin is connected to a wiper. The resistance through the wiper, or Pin C, depends on the position of the wiper as it contacts the resistive material. The more of the resistive material the current must pass through before exiting the potentiometer through the wiper, the higher the resistance through Pin C.
+
+So, potentiometers change the resistance in the circuit. However, microcontrollers don’t read resistance; they read voltage. In the traffic ligh circuit, you used a digital pin to read the voltage as either HIGH or LOW. So, how do you get a potentiometer to affect the voltage in a circuit? By connecting the potentiometer to a power source and to ground. The wiper pin is usually connected to an analog pin on the Arduino UNO Rev3 board.
+
+### BUILDING THE CIRCUIT
+Circuit diagram and sketch file can be found in the Dimmer folder.
+#### COMPONENT LIST
+- Arduino Uno Board
+- Breadboard
+- LEDs (Red,Yellow & Green)
+- Jumper Wires
+- 3x 220 ohms Resistor
+- Potentiometer
+- USB Cable
+
+# SERVO MOTOR CIRCUIT
+In this lesson, we learn how to program and control our servo motor. You will also learn how to use capacitors to store charges and how to use external arduino library such as Servo library to control the servo motor.
+
+### CAPACITORS
+A capacitor is an electrical component that stores an electrical charge like a battery. However, capacitors store charge in a much different way than batteries do. Batteries use a chemical reaction to produce electrons on one terminal and absorb electrons on the other terminal. Capacitors don’t produce electrons like batteries do. Capacitors are storage units where electrons are stored and released through the same terminal they came in.
+
+Capacitors have two terminals. Some capacitors, like the ones we will be using are polarized. They have an anode and a cathode. With polarized capacitors, electrons flow in only one direction. Therefore, polarized capacitors are generally used in DC applications where current flows in one direction. Non-polarized capacitors allow electrons to flow in either direction. This makes them great for AC applications where current alternates directions. However, they can also be used in DC circuits.
+
+**Note:** For polarized capacitors, the cathodes usually have a shorter wire and are usually marked with an arrow, a stripe, or a negative sign
+
+Inside a capacitor, the terminals are connected to conductive metal plates that are separated by an insulator. The insulator that separates the plates is called a dielectric and can be made from ceramic, porcelain, glass, and even air. The dielectric material is what gives capacitors a wide range of types and uses.
+
+In a way, you can think of a lightning storm like a capacitor. The clouds are one conductive plate, and the ground is the other. They are separated by the air, which acts as the dielectric. When enough charge builds up in the clouds, lightning jumps the air gap between the clouds and the ground and discharges the capacitor.
+
+Lightning leads to a big difference between batteries and capacitors. Capacitors can discharge all their stored electrons very quickly whereas batteries discharge slowly. This makes the potential uses for batteries and capacitors much different. Batteries are good at supplying current over time, while capacitors are good at managing quick changes in current.
+
+Capacitance is a measure of how much charge a capacitor can collect and store. It is measured in units called farads, named after Michael Faraday. Generally, the larger a capacitor’s physical size, the more capacitance it has. For example, a one-farad capacitor would be pretty large – perhaps the size of a two-liter bottle of soda. It could hold enough charge to potentially electrocute you. The capacitors you’ll use are in the microfarad range. That’s one-millionth of a farad. These capacitors hold far less charge and are much safer to work with.
+
+
+
+### BUILDING THE CIRCUIT
+Circuit diagram and sketch file can be found in the Servo folder.
+#### COMPONENT LIST
+- Arduino Uno Board
+- Breadboard
+- Capacitor 10micro Farad.
+- Jumper Wires
+- Servo Motor
+- Potentiometer (10kOhms)
+- USB Cable
+
+
+
